@@ -45,7 +45,7 @@ function setup(app, grades) {
       value: req.body.value
     };
     grades.push(grade);
-    res.redirect('/my-grades');
+    res.redirect('/My-Grades');
   });
 }
 
